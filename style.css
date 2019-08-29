@@ -6,20 +6,20 @@
     margin:0px;
     box-sizing: border-box;
     font-size: 20px;
-    background-color: #b4b6b5
+    background-color: #b4b6b5;
 }
 
 .content {
     margin: 0 80px 0 50px;
+    min-width: 650px
 }
 
 /*for the hero image section*/
 .hero-image {
-    background-image: linear-gradient(rgba(107, 240, 113, 0.35),rgba(107, 240, 113, 0.35)), url(img/apple-black-and-white-black-and-white-169573.jpg);
+    background-image: url(img/apple-black-and-white-black-and-white-169573.jpg);
     height: 80vh;
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;    
+    background-size: cover; 
 }
 
 .hero-image h1 {
@@ -30,10 +30,11 @@
     background-color: rgba(26, 245, 37, 0.904);
     text-align: right;
     font-size: 40px;
-    padding-right: 80px
+    padding: 5px 90px 5px 10px;
 }
 
 .skills {
+    background-color: #ffffff;
     border: 2px solid rgb(147, 153, 147);
     width: 90%;
     height: 100vh;
@@ -42,6 +43,7 @@
 }
 
 .interest {
+    background-color: #ffffff;
     border: 2px solid rgb(147, 153, 147);
     width: 90%;
     height: 100vh;
@@ -57,16 +59,10 @@
     border-radius: 15px
 }
 
-
-
 /*the footer*/
 footer{
-    background: #98f7a0;
+    background-color: #bbf7c0;
     text-align: center;
     padding: 20px;
     bottom: 0%;
-    color: #78f898;
-    -moz-box-shadow: 0 -5px 10px #98f7a0;
-    -webkit-box-shadow: 0 -5px 10px #98f7a0;
-    box-shadow: 0 -5px 10px #98f7a0;
 }
