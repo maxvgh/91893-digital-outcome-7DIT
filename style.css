@@ -6,7 +6,7 @@
     margin:0px;
     box-sizing: border-box;
     font-size: 20px;
-    background-color: #b4b6b5;
+    background-color: #f1f1f1;
 }
 
 .content {
@@ -33,36 +33,45 @@
     padding: 5px 90px 5px 10px;
 }
 
-.skills {
+/* About Myself section */
+.info-box-1 {
+    border: none;
     background-color: #ffffff;
     border: 2px solid rgb(147, 153, 147);
     width: 90%;
-    height: 100vh;
-    margin: 0 auto;
-    text-align: center;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: left;
 }
 
-.interest {
+/* Three coulumn sections */
+.info-box-2 {
     background-color: #ffffff;
     border: 2px solid rgb(147, 153, 147);
     width: 90%;
-    height: 100vh;
-    margin: 0 auto;
+    margin: 80px auto;
+    padding: 20px;
     text-align: center;
 }
 
 .col-3 {
     width: 300px;
-    border: 2px solid yellow;
+    border: 2px solid #000000;
     display: inline-block;
     margin: 20px 40px;
     border-radius: 15px
 }
 
+.col-3 img {
+    height: 90px
+}
+
 /*the footer*/
 footer{
-    background-color: #bbf7c0;
+    background-color: rgba(26, 245, 37, 0.904);
     text-align: center;
     padding: 20px;
     bottom: 0%;
+    color: #ffffff;
+    font-size: 20px
 }
