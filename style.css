@@ -1,4 +1,11 @@
-/*  */
+/*Variables*/
+:root {
+    --light-gray: #f1f1f1;
+    --dark: #000000;
+    --light: #ffffff;
+    --neon-green: #1af525e7;
+    --gray: #939993
+}
 
 /*General rule for the website*/
 * {
@@ -6,7 +13,7 @@
     margin:0px;
     box-sizing: border-box;
     font-size: 20px;
-    background-color: #f1f1f1;
+    background-color: var(--light-gray);
 }
 
 .content {
@@ -14,10 +21,14 @@
     min-width: 650px
 }
 
+p {
+    background-color: var(--light)
+}
+
 /*for the hero image section*/
 .hero-image {
     background-image: url(img/apple-black-and-white-black-and-white-169573.jpg);
-    height: 80vh;
+    height: 85vh;
     background-position: center;
     background-size: cover; 
 }
@@ -25,9 +36,9 @@
 .hero-image h1 {
     top: 40%;
     right: 10%;
-    color: #ffffff;
+    color: var(--light);
     position: absolute;
-    background-color: rgba(26, 245, 37, 0.904);
+    background-color: var(--neon-green);
     text-align: right;
     font-size: 40px;
     padding: 5px 90px 5px 10px;
@@ -36,18 +47,32 @@
 /* About Myself section */
 .info-box-1 {
     border: none;
-    background-color: #ffffff;
-    border: 2px solid rgb(147, 153, 147);
+    background-color: var(--light);
+    border: 2px solid var(--gray);
     width: 90%;
     margin: 80px auto;
     padding: 20px;
     text-align: left;
 }
 
+.info-box-1 h2 {
+    background-color: var(--light);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 30px
+}
+
 /* Three coulumn sections */
+.info-box-2 h2 {
+    background-color: var(--light);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px
+}
+
 .info-box-2 {
-    background-color: #ffffff;
-    border: 2px solid rgb(147, 153, 147);
+    background-color: var(--light);
+    border: 2px solid var(--gray);
     width: 90%;
     margin: 80px auto;
     padding: 20px;
@@ -56,19 +81,22 @@
 
 .col-3 {
     width: 300px;
-    border: 2px solid #000000;
+    background-color: var(--light);
+    border: 2px solid var(--dark);
     display: inline-block;
     margin: 20px 40px;
+    padding: 10px;
     border-radius: 15px
 }
 
 .col-3 img {
-    height: 90px
+    height: 90px;
+    background-color: var(--light);
 }
 
 /*the footer*/
 footer{
-    background-color: rgba(26, 245, 37, 0.904);
+    background-color: var(--neon-green);
     text-align: center;
     padding: 20px;
     bottom: 0%;
