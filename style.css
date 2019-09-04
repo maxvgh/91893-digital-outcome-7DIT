@@ -30,7 +30,8 @@ p {
     background-image: url(img/apple-black-and-white-black-and-white-169573.jpg);
     height: 85vh;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .hero-image h1 {
@@ -53,6 +54,7 @@ p {
     margin: 80px auto;
     padding: 20px;
     text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 .info-box-1 h2 {
@@ -62,13 +64,10 @@ p {
     font-size: 30px
 }
 
-/* Three coulumn sections */
-.info-box-2 h2 {
+.info-box-1 h3 {
     background-color: var(--light);
-    text-align: left;
-    padding-left: 30px;
-    font-size: 30px
 }
+/* Three coulumn sections */
 
 .info-box-2 {
     background-color: var(--light);
@@ -77,6 +76,14 @@ p {
     margin: 80px auto;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.info-box-2 h2 {
+    background-color: var(--light);
+    text-align: left;
+    padding-left: 30px;
+    font-size: 30px
 }
 
 .col-3 {
@@ -94,9 +101,12 @@ p {
     background-color: var(--light);
 }
 
+.col-3 p strong{
+    background-color: var(--light);
+}
 /*the footer*/
 footer{
-    background-color: var(--neon-green);
+    background-color: #24a53c;
     text-align: center;
     padding: 20px;
     bottom: 0%;
