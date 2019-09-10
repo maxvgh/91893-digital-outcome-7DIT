@@ -1,13 +1,15 @@
 /*Variables*/
+
 :root {
     --light-gray: #f1f1f1;
     --dark: #000000;
     --light: #ffffff;
-    --neon-green: #1af525e7;
+    --neon-green: #1ee928e7;
     --gray: #939993
 }
 
 /*General rule for the website*/
+
 * {
     padding:0px;
     margin:0px;
@@ -26,6 +28,7 @@ p {
 }
 
 /*for the hero image section*/
+
 .hero-image {
     background-image: url(img/apple-black-and-white-black-and-white-169573.jpg);
     height: 85vh;
@@ -46,27 +49,29 @@ p {
 }
 
 /* About Myself section */
+
 .info-box-1 {
     border: none;
     background-color: var(--light);
     border: 2px solid var(--gray);
     width: 90%;
     margin: 80px auto;
-    padding: 20px;
+    padding: 0px;
     text-align: left;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 .info-box-1 h2 {
-    background-color: var(--light);
+    background-color: var(--neon-green);
     text-align: left;
-    padding-left: 10px;
-    font-size: 30px
+    padding: 10px 30px;
+    font-size: 30px;
 }
 
 .info-box-1 h3 {
     background-color: var(--light);
 }
+
 /* Three coulumn sections */
 
 .info-box-2 {
@@ -74,26 +79,28 @@ p {
     border: 2px solid var(--gray);
     width: 90%;
     margin: 80px auto;
-    padding: 20px;
+    padding: 0;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 .info-box-2 h2 {
-    background-color: var(--light);
+    background-color: var(--neon-green);
     text-align: left;
-    padding-left: 30px;
-    font-size: 30px
+    padding: 10px 30px;
+    font-size: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
-.col-3 {
+.col-3{
     width: 300px;
     background-color: var(--light);
     border: 2px solid var(--dark);
     display: inline-block;
     margin: 20px 40px;
     padding: 10px;
-    border-radius: 15px
+    border-radius: 15px;
+    height: 350px
 }
 
 .col-3 img {
@@ -101,15 +108,30 @@ p {
     background-color: var(--light);
 }
 
-.col-3 p strong{
+.col-3-second{
+    width: 300px;
+    background-color: var(--light);
+    border: 2px solid var(--dark);
+    display: inline-block;
+    margin: 20px 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.col-3-second img {
+    height: 90px;
+    background-color: var(--light);
+}
+
+.col-3-second p strong{
     background-color: var(--light);
 }
 /*the footer*/
 footer{
-    background-color: #24a53c;
+    background-color: var(--neon-green);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     bottom: 0%;
-    color: #ffffff;
-    font-size: 20px
+    font-size: 20px;
+    font-weight: bold
 }
