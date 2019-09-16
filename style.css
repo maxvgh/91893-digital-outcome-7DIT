@@ -3,6 +3,7 @@
 :root {
     --light-gray: #f1f1f1;
     --dark: #000000;
+    --light-dark: #363636;
     --light: #ffffff;
     --neon-green: #1ee928e7;
     --gray: #939993
@@ -24,7 +25,8 @@
 }
 
 p {
-    background-color: var(--light)
+    background-color: var(--light);
+    font-family: 'Crimson Text', serif;
 }
 
 /*for the hero image section*/
@@ -66,13 +68,20 @@ p {
     text-align: left;
     padding: 10px 30px;
     font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: var(--light-dark)
 }
 
 .info-box-1 h3 {
     background-color: var(--light);
+    padding: 5px 0px
 }
 
-/* Three coulumn sections */
+.text-box-1 {
+    margin: 20px
+}
+
+/*information box 2, containing "My Abilities" and "What I like to do"*/
 
 .info-box-2 {
     background-color: var(--light);
@@ -90,7 +99,11 @@ p {
     padding: 10px 30px;
     font-size: 30px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    font-family: 'Pacifico', cursive;
+    color: var(--light-dark)
 }
+
+/* Three coulumn sections */
 
 .col-3{
     width: 300px;
@@ -100,7 +113,11 @@ p {
     margin: 20px 40px;
     padding: 10px;
     border-radius: 15px;
-    height: 350px
+    max-height: 350px
+}
+
+.col-3 h3 {
+    background-color: var(--light)
 }
 
 .col-3 img {
