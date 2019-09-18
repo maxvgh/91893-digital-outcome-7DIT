@@ -20,8 +20,9 @@
 }
 
 .content {
-    margin: 0 80px 0 50px;
-    min-width: 650px
+    margin: 0 auto;
+    min-width: 650px;
+    align-content: center
 }
 
 p {
@@ -37,11 +38,11 @@ p {
     background-position: center;
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-attachment: fixed;
+    margin: 0 auto;
 }
 
 .hero-image h1 {
-    top: 40%;
-    right: 10%;
     color: var(--light);
     position: absolute;
     background-color: var(--neon-green);
@@ -143,6 +144,7 @@ p {
 .col-3-second p strong{
     background-color: var(--light);
 }
+
 /*the footer*/
 footer{
     background-color: var(--neon-green);
@@ -152,3 +154,10 @@ footer{
     font-size: 20px;
     font-weight: bold
 }
+
+/*Media Query for when the size of the display changes*/
+@media only screen and (max-width: 1500px) {
+    .content {
+      max-width: 400px
+    }
+  }
